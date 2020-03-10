@@ -1,0 +1,10 @@
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu-item:last-child a {
+  margin-right: 0;
+  
+}
