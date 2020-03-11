@@ -1,5 +1,16 @@
-.carrosel__image {
-  height: calc(100vh - 72px);
+.carrosel__image {  
   width: 100%;  
   background: url('../../img/banner.jpg') no-repeat center / cover;  
+}
+
+@media screen and (min-width: 0) {
+  .carrosel__image {
+    height: calc(100vh - 51px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carrosel__image {
+    height: calc(100vh - 72px);
+  }
 }

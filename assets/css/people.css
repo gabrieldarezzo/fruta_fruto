@@ -4,3 +4,14 @@
   justify-content: space-around;
 }
 
+@media screen and (min-width: 0) {
+  .people {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .people {
+    flex-direction: row;
+  }
+}

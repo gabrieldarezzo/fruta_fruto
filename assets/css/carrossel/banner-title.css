@@ -3,8 +3,7 @@
   position: absolute;
   font-family: Pacifico, cursive;
   font-style: normal;
-  font-weight: normal;
-  font-size: 5.0625rem;
+  font-weight: normal;  
   left: 50%;
   text-shadow: 0 4px 4px rgba(0,0,0,0.75);
   top: 50%;
@@ -14,3 +13,14 @@
   color: #fdfdfd;
 }
 
+@media screen and (min-width: 0) {
+  .carrosel__title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carrosel__title {
+    font-size: 5.0625rem;
+  }
+}
